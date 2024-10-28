@@ -1,1 +1,144 @@
-/* your code here */
+/* Body and Basic Reset */
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Product Container */
+.product {
+    display: flex;
+    background-color: white;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+}
+
+/* Product Photo Section */
+.product__photo {
+    width: 50%;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Photo */
+.photo-main {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.photo-main img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Photo Album */
+.photo-album ul {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.photo-album ul li {
+    list-style: none;
+}
+
+.photo-album ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+/* Product Info Section */
+.product__info {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Title and Code */
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.title span {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Price */
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+    margin: 10px 0;
+}
+
+/* Varieties */
+.variant h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.variant ul {
+    display: flex;
+    gap: 10px;
+}
+
+.variant ul li img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Benefits */
+.description h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background-color: #76CD26;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #5cb722;
+}
